@@ -14,6 +14,10 @@ type UrlStatusCode struct {
 	timeoutSec int
 }
 
+func Test()  string{
+	return "test"
+}
+
 func New(fileName string, timeoutSec int) *UrlStatusCode  {
 	return &UrlStatusCode{
 		fileName:fileName,
